@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name NPFootprints)(type KiCad)(uri ${KIPRJMOD}/NPFootprints.pretty)(options "")(descr ""))
+  (lib (name Headers)(type KiCad)(uri ${KIPRJMOD}/Headers.pretty)(options "")(descr ""))
+)
