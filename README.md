@@ -12,6 +12,12 @@ A Small STM32F103C8T6 board with all functional pins exposed. Similar to the Blu
 
 I'm still very new at PCB design so there are no guarantees that it will be working correctly. I tried to fit everything on a very small surface. The size is 36.56mm x 20.32mm.
 
+## Top view
+![Top View](top.png?raw=true "Top")
+
+## Bottom view
+![Bottom View](bottom.png?raw=true "Top")
+
 Versions history:
 
 - V1: was never released because it was faulty and had less pins exposed.
