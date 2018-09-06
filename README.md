@@ -10,7 +10,10 @@ A Small STM32F103C8T6 board with all functional pins exposed. Similar to the Blu
 - RFM69CW + RFM69(H)W footprints + u.FL connector
 - VBAT can be disconnected from VCC by cutting the solder jumper on the back.
 
-I'm still very new at PCB design so there are no guarantees that it will be working correctly. I tried to fit everything on a very small surface. The size is 36.56mm x 20.32mm.
+The size is 36.56mm x 20.32mm. 5 mils trace width and clearance. 20 mils edge clearance.
+
+Tested succesfully V3 with jlcpcb order.
+Test failed with V3.4 pcbs.io order due to imposed edge clearance. Should be corrected in V4.3
 
 ## Top view
 ![Top View](top.png?raw=true "Top")
@@ -26,3 +29,4 @@ Versions history:
 - V3.3: corrected mislabeling + moved board edges to fit on breadboard (only sides).
 - V3.4: moved labels so they are still visible when headers are soldered on. Optimized a few traces. Changed custom button footprint to RS282G05A3 buttons.
 - V4: Added RFM69(H)W footprints. Changed crystal footprint to standard Kicad footprint. Git init.
+- V4.3: optimized traces and introduced 20 mils edge clearance.
