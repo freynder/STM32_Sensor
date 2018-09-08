@@ -7,7 +7,7 @@ A Small STM32F103C8T6 board with all functional pins exposed. Similar to the Blu
 - No LED
 - No BOOT0/BOOT1 jumper pins. BOOT0 can be pulled high by a button, BOOT1 is pulled low permanently but exposed by a PIN.
 - smaller crystals
-- RFM69CW + RFM69(H)W footprints + u.FL connector
+- RFM69CW + RFM69(H)W + RFM69HCW footprints + u.FL connector
 - VBAT can be disconnected from VCC by cutting the solder jumper on the back.
 
 The size is 36.56mm x 20.32mm. 5 mils trace width and clearance. 20 mils edge clearance.
@@ -30,3 +30,4 @@ Versions history:
 - V3.4: moved labels so they are still visible when headers are soldered on. Optimized a few traces. Changed custom button footprint to RS282G05A3 buttons.
 - V4: Added RFM69(H)W footprints. Changed crystal footprint to standard Kicad footprint. Git init.
 - V4.3: optimized traces and introduced 20 mils edge clearance.
+- V4.4: added support for RFM69(H)W. Re-layed most traces.
