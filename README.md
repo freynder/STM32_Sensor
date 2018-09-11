@@ -21,8 +21,7 @@ Test failed with V3.4 pcbs.io order due to imposed edge clearance. Should be cor
 ## Bottom view
 ![Bottom View](bottom.png?raw=true "Top")
 
-Versions history:
-
+## Version history
 - V1: was never released because it was faulty and had less pins exposed.
 - V2: had full pin availability but the layout was messy.
 - V3: is V2 + u.FL connector + better layout and clearer markings.
