@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:STM32_Sensor_V4-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -624,7 +623,7 @@ U 1 1 5B30401A
 P 4510 3340
 F 0 "JP1" H 4510 3545 50  0000 C CNN
 F 1 "VBAT Jumper" H 4510 3454 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 4510 3340 50  0001 C CNN
+F 2 "Sparkfun Jumpers:SMT-JUMPER_2_NO_NO-SILK" H 4510 3340 50  0001 C CNN
 F 3 "~" H 4510 3340 50  0001 C CNN
 	1    4510 3340
 	1    0    0    -1  
